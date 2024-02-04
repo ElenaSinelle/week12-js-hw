@@ -1,3 +1,4 @@
+'use strict'
 //1. Выведите в консоль количество символов в тексте.
 const str = document.getElementById('str').innerText;
 console.log(str.length);
