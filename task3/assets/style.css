@@ -20,3 +20,21 @@ h2.site-title {
 p {
 	margin-bottom: 2rem;
 }
+
+#btn {
+  padding: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid darkblue;
+  background-color: rgb(56, 56, 117);
+  color: white;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+#btn:hover {
+  transform: scale(0.95);
+}
+
+#word {
+  color:  rgb(56, 56, 117);
+}
