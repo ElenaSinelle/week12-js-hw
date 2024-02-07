@@ -278,8 +278,8 @@ const buttonTwentyOne = document.querySelector('.b-21');
 const resultTwentyOne = document.querySelector('#resultTwentyOne');
 
 const makeTwentyOne = () => {
-	resultTwentyOne.textContent = Math.round(Math.random() * 10);
-  // resultTwentyOne.textContent = Math.trunc(Math.random() * 11); // или так
+	resultTwentyOne.textContent = Math.round(1 + Math.random() * 9);
+  // resultTwentyOne.textContent = Math.floor(Math.random() * 10) + 1; // или так
 };
 
 buttonTwentyOne.addEventListener('click', makeTwentyOne);
